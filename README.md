@@ -26,7 +26,7 @@ f_{\mathrm{FD}}(\varepsilon) = \frac{1}{e^{\beta(\varepsilon)} + 1}
 であるが、これは$`i\omega_n = n \pi k_\mathrm{B} T (n:\mathrm{integer})`$に一位の極をもつ。これに松原周波数で正則な関数$`g(z)`$をかけた関数の松原周波数における留数は
 $`-\frac{1}{\beta} g(i \omega_n)`$である。これより
 ```math
-\Phi_{j^{\mu}_e j^{\nu}_e}(i\omega_\nu) = \frac{e^2}{2\pi i \beta V} \int_\mathrm{C}{dz f_\mathrm{FD}(z)\sum_{\vec{k},n}{\mathrm{tr}v^{\mu}_\vec{k} G(\vec{k}, z) v^{\nu}_\vec{k} G(\vec{k}, z - i\omega_\nu)}} 
+\Phi_{j^{\mu}_e j^{\nu}_e}(i\omega_\nu) = \frac{e^2}{2\pi i V} \int_\mathrm{C}{dz f_\mathrm{FD}(z)\sum_{\vec{k},n}{\mathrm{tr}v^{\mu}_\vec{k} G(\vec{k}, z) v^{\nu}_\vec{k} G(\vec{k}, z - i\omega_\nu)}} 
 ```
 となる。積分路Cは分枝線をよけ、外側では円状に取る。(詳しく知りたい場合はAGDなどをみる。)外側の円の部分の寄与は無限遠で0に近づくので残るのは分枝線の上側の実軸方向に負の無限大から
 正の無限大への積分と、分枝線の下側の逆向きの積分の寄与だけとなる。
