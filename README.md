@@ -28,7 +28,7 @@ $`-\frac{1}{\beta} g(i \omega_n)`$である。これより
 ```math
 \Phi_{j^{\mu}_e j^{\nu}_e}(i\omega_\nu) = \frac{e^2}{2\pi i V} \int_\mathrm{C}{dz f_\mathrm{FD}(z)\sum_{\vec{k},n}{\mathrm{tr}v^{\mu}_\vec{k} G(\vec{k}, z) v^{\nu}_\vec{k} G(\vec{k}, z - i\omega_\nu)}} 
 ```
-となる。ただし、エネルギーをシフトし、$`f_{\mathrm{FD}}(\varepsilon) = \frac{1}{e^{\beta(\varepsilon - \mu} + 1}}`$となるようにした。 
+となる。ただし、エネルギーをシフトし、$`f_{\mathrm{FD}}(\varepsilon) = \frac{1}{e^{\beta(\varepsilon - \mu)} + 1}`$となるようにした。 
 積分路Cは分枝線をよけ、外側では円状に取る。(詳しく知りたい場合はAGDなどをみる。)外側の円の部分の寄与は無限遠で0に近づくので残るのは分枝線の上側の実軸方向に負の無限大から
 正の無限大への積分と、分枝線の下側の逆向きの積分の寄与だけとなる。
 分枝線は$`\mathrm{Im}z = \omega_\nu,0`$に存在するので積分は
@@ -39,7 +39,7 @@ $`-\frac{1}{\beta} g(i \omega_n)`$である。これより
 ```math
 \sigma_{\mu \nu} = \int_{-\infty}^{\infty}{d\varepsilon f_\mathrm{FD}(\varepsilon) \frac{\hbar e^2}{i \pi V}\sum_{\vec{k}}{\mathrm{tr}\left[v^{\mu}_\vec{k} \frac{\partial}{\partial \varepsilon}G(\vec{k}, \varepsilon + i\delta) v^{\nu}_\vec{k} \mathrm{Im} G(\vec{k},\varepsilon+ i\delta)  - v^{\mu}_\vec{k} \mathrm{Im} G(\vec{k},\varepsilon+ i\delta) v^{\nu}_\vec{k} \frac{\partial}{\partial \varepsilon} G(\vec{k}, \varepsilon - i\delta)\right]}}
 ```
-これがKubo-Bastin公式である。
+となる。これがKubo-Bastin公式である。
 ## Kubo-Streda公式の導出
 
 ## Kubo-Greenwood公式の導出
@@ -51,4 +51,4 @@ $`\mu = \nu`$つまり縦の電気伝導度の場合はトレースの巡回則�
 ```math
 \sigma_{\mu \mu} = \frac{\hbar e^2}{\pi V}\sum_{\vec{k}}{\mathrm{tr}\left[v^{\mu}_\vec{k} \mathrm{Im} G(\vec{k}, \varepsilon + i\delta) v^{\mu}_\vec{k} \mathrm{Im} G(\vec{k},\varepsilon+ i\delta)\right]}
 ```
-
+が導かれる。これがKubo-Greenwood公式である。
