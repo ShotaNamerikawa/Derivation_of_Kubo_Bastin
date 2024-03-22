@@ -11,7 +11,7 @@ Kubo-Bastin公式の導出を温度グリーン関数から行う。
 ```math
 \sigma_{\mu \nu} = \lim_{\omega\rightarrow 0} \frac{\Phi^{R}_{j^{\mu}_e j^{\nu}_e}(\omega) - \Phi^{R}_{j^{\mu}_e j^{\nu}_e}(0)}{i\omega}  
 ```
-と得られる。(ちなみに光学伝導度は$\omega$を有限にすることで得られる。)ここで多体効果(電子間相互作用、電子-格子相互作用)から生じるバーテックス補正を無視する近似(独立電子近似)を行うと電流相関関数は
+と得られる。(ちなみに光学伝導度は$`\omega`$を有限にすることで得られる。)ここで多体効果(電子間相互作用、電子-格子相互作用)から生じるバーテックス補正を無視する近似(独立電子近似)を行うと電流相関関数は
 ```math
 \Phi_{j^{\mu}_e j^{\nu}_e}(\tau) = \frac{e^2}{V}\braket{T_\tau[j^{\mu}_e(\tau) j^{\nu}_e(0)]} = -\frac{1}{V} \sum_{\vec{k}}{\mathrm{tr}\vec{v}_\vec{k} G(\vec{k},\tau) \vec{v}_\vec{k} G(\vec{k},-\tau)} 
 ```
@@ -19,7 +19,7 @@ Kubo-Bastin公式の導出を温度グリーン関数から行う。
 ```math
 \Phi_{j^{\mu}_e j^{\nu}_e}(i\omega_\nu) = -\frac{e^2}{\beta V} \sum_{\vec{k},n}{\mathrm{tr}v^{\mu}_\vec{k} G(\vec{k},i\omega_n ) v^{\nu}_\vec{k} G(\vec{k}, i\omega_n - i\omega_\nu)} 
 ```
-次に、松原和を留数定理を使い、フェルミディラック積分に置き換えることを考える。フェルミディラック分布関数を$\mu=0$とした式は
+次に、松原和を留数定理を使い、フェルミディラック積分に置き換えることを考える。フェルミディラック分布関数を$`\mu=0`$とした式は
 ```math
 f_{\mathrm{FD}}(\varepsilon) = \frac{1}{e^{\beta(\varepsilon)} + 1}
 ```
