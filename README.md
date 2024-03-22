@@ -13,7 +13,7 @@ Kubo-Bastin公式の導出を温度グリーン関数から行う。
 ```
 と得られる。(ちなみに光学伝導度は$`\omega`$を有限にすることで得られる。)ここで多体効果(電子間相互作用、電子-格子相互作用)から生じるバーテックス補正を無視する近似(独立電子近似)を行うと電流相関関数は
 ```math
-\Phi_{j^{\mu}_e j^{\nu}_e}(\tau) = \frac{e^2}{V}\braket{T_\tau[j^{\mu}_e(\tau) j^{\nu}_e(0)]} = -\frac{1}{V} \sum_{\vec{k}}{\mathrm{tr}\vec{v}_\vec{k} G(\vec{k},\tau) \vec{v}_\vec{k} G(\vec{k},-\tau)} 
+\Phi_{j^{\mu}_e j^{\nu}_e}(\tau) = \frac{1}{V}\braket{T_\tau[j^{\mu}_e(\tau) j^{\nu}_e(0)]} = -\frac{e^2}{V} \sum_{\vec{k}}{\mathrm{tr}\vec{v}_\vec{k} G(\vec{k},\tau) \vec{v}_\vec{k} G(\vec{k},-\tau)} 
 ```
 となる。$`G(\tau),G(-\tau)`$の２つの符号が出るのは電流演算子が生成、消滅演算子のペアからなり、消滅演算子が$`\tau`$生成演算子が$`0`$のペアを端点として持つグリーン関数が$`G(\tau)`$, 消滅演算子が$`0`$生成演算子が$`\tau`$のペアを端点としてもつグリーン関数が$`G(-\tau)`$となるため。また、負符号はグリーン関数のループから生じる。虚時間の式を松原表示すると
 ```math
