@@ -47,7 +47,8 @@ $`-\frac{1}{\beta} g(i \varepsilon_n)`$である。これより
 ```
 となる。これがKubo-Bastin公式である。(ただし、元の論文ではグリーン関数の自己エネルギーを無視した時の式$`- \frac{1}{\pi} \rm{Im}G(\varepsilon + i \delta) \rightarrow \delta(\varepsilon - H)`$を用いている。)
 
-Synitynらはこれを希薄極限で大きな値を持つ、G^R G^Aのようなタームと小さな値をもつG^R G^R のようなタームに分離する方法を提案した。すなわち、
+Stredaはフェルミ面**周り**の積分項とフェルミ面**以下のエネルギー**の項海分離する方法を提案した。すなわち、
+
 ## Kubo-Streda公式の導出
 
 ## Kubo-Greenwood公式の導出
