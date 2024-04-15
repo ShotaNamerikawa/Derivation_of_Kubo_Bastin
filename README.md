@@ -21,7 +21,7 @@ Kubo-Bastin公式の導出を温度グリーン関数から簡潔に行う。
 ```
 となる。$`\mathscr{G}(\tau),\mathscr{G}(-\tau)`$の２つの符号が出るのは電流演算子が生成、消滅演算子のペアからなり、消滅演算子が$`\tau`$生成演算子が$`0`$のペアを端点として持つグリーン関数が$`\mathscr{G}(\tau)`$, 消滅演算子が$`0`$生成演算子が$`\tau`$のペアを端点としてもつグリーン関数が$`\mathscr{G}(-\tau)`$となるため。また、負符号はグリーン関数のループから生じる。虚時間の式を松原振動数で表示すると
 ```math
-\Phi_{j^{\mu}_e j^{\nu}_e}(i\omega_\nu) = -\frac{e^2}{\beta V} \sum_{\vec{k},n}{\mathrm{tr}v^{\mu}_\vec{k} \mathscr{G}(\vec{k},i\omega_n ) v^{\nu}_\vec{k} \mathscr{G}(\vec{k}, i\omega_n - i\omega_\nu)} 
+\Phi_{j^{\mu}_e j^{\nu}_e}(i\omega_\nu) = -\frac{e^2}{\beta V} \sum_{\vec{k},n}{\mathrm{tr}v^{\mu}_\vec{k} \mathscr{G}(\vec{k},i\varepsilon_n ) v^{\nu}_\vec{k} \mathscr{G}(\vec{k}, i\varepsilon_n - i\omega_\nu)} 
 ```
 となる。ただし、$`\mathscr{G}(i\varepsilon_n) = (i\varepsilon_n - H(k) + \mu)^{-1}`$である。
 
@@ -29,8 +29,8 @@ Kubo-Bastin公式の導出を温度グリーン関数から簡潔に行う。
 ```math
 f(\varepsilon) = \frac{1}{e^{\beta(\varepsilon)} + 1}
 ```
-であるが、これは$`i\omega_n = n \pi k_\mathrm{B} T (n:\mathrm{integer})`$に一位の極をもつ。これに松原周波数で正則な関数$`g(z)`$をかけた関数の松原周波数における留数は
-$`-\frac{1}{\beta} g(i \omega_n)`$である。これより
+であるが、これは$`i\varepsilon_n = n \pi k_\mathrm{B} T (n:\mathrm{integer})`$に一位の極をもつ。これに松原周波数で正則な関数$`g(z)`$をかけた関数の松原周波数における留数は
+$`-\frac{1}{\beta} g(i \varepsilon_n)`$である。これより
 ```math
 \Phi_{j^{\mu}_e j^{\nu}_e}(i\omega_\nu) = \frac{e^2}{2\pi i V} \int_\mathrm{C}{dz f_\mathrm{FD}(z)\sum_{\vec{k},n}{\mathrm{tr}v^{\mu}_\vec{k} G(\vec{k}, z) v^{\nu}_\vec{k} G(\vec{k}, z - i\omega_\nu)}} 
 ```
