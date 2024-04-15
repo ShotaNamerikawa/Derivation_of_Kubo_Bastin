@@ -50,6 +50,8 @@ $`-\frac{1}{\beta} g(i \varepsilon_n)`$である。これより
 
 Stredaはフェルミ面**周り**の積分項(Fermi surface term)とフェルミ面**以下のエネルギー**の積分項(Fermi Sea term)に分離する方法を提案した。すなわち、
 
+である。
+
 ## Kubo-Streda公式の導出
 
 ## Kubo-Greenwood公式の導出
