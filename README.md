@@ -2,8 +2,8 @@
 # 目的
 Kubo-Bastin公式の導出を温度グリーン関数から簡潔に行う。
 # 参考文献
-[1] A. A. Abrikosov, L. P. Gorkov, I. E. Dzyaloshinski, Methods of Quantum Field Theory in Statistical Physics 
-[2] 小形　正男, 物性物理のための場の理論・グリーン関数
+- [1] Sec 21.2 in A. A. Abrikosov, L. P. Gorkov, I. E. Dzyaloshinski, Methods of Quantum Field Theory in Statistical Physics
+- [2] 小形　正男, 物性物理のための場の理論・グリーン関数
 
 # 内容
 ## Kubo-Bastin公式の導出
