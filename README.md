@@ -1,6 +1,10 @@
 # Derivation_of_Kubo_Bastin
 # 目的
 Kubo-Bastin公式の導出を温度グリーン関数から行う。
+# 参考文献
+[1] A. A. Abrikosov, L. P. Gorkov, I. E. Dzyaloshinski, Methods of Quantum Field Theory in Statistical Physics 
+[2] 小形　正男, 物性物理のための場の理論・グリーン関数
+
 # 内容
 ## Kubo-Bastin公式の導出
 (静的)電気伝導度は電流自己相関関数
