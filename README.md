@@ -21,7 +21,7 @@ Kubo-Bastin公式の導出を温度グリーン関数から簡潔に行う。
 ```
 となる。$`G(\tau),G(-\tau)`$の２つの符号が出るのは電流演算子が生成、消滅演算子のペアからなり、消滅演算子が$`\tau`$生成演算子が$`0`$のペアを端点として持つグリーン関数が$`G(\tau)`$, 消滅演算子が$`0`$生成演算子が$`\tau`$のペアを端点としてもつグリーン関数が$`G(-\tau)`$となるため。また、負符号はグリーン関数のループから生じる。虚時間の式を松原表示すると
 ```math
-\Phi_{j^{\mu}_e j^{\nu}_e}(i\omega_\nu) = -\frac{e^2}{\beta V} \sum_{\vec{k},n}{\mathrm{tr}v^{\mu}_\vec{k} \mathscrG(\vec{k},i\omega_n ) v^{\nu}_\vec{k} G(\vec{k}, i\omega_n - i\omega_\nu)} 
+\Phi_{j^{\mu}_e j^{\nu}_e}(i\omega_\nu) = -\frac{e^2}{\beta V} \sum_{\vec{k},n}{\mathrm{tr}v^{\mu}_\vec{k} \mathcalG(\vec{k},i\omega_n ) v^{\nu}_\vec{k} G(\vec{k}, i\omega_n - i\omega_\nu)} 
 ```
 となる。
 次に、松原和を留数定理を使い、フェルミディラック積分に置き換えることを考える。フェルミディラック分布関数を$`\mu=0`$とした式は
