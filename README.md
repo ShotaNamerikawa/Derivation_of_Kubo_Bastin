@@ -52,7 +52,7 @@ $`\mu = \nu`$つまり縦の電気伝導度の場合はトレースの巡回則�
 ```math
 \sigma_{\mu \mu} = \int_{-\infty}^{\infty}{d\varepsilon \left(-\frac{df_\mathrm{FD}(\varepsilon)}{d\varepsilon}\right) \frac{\hbar e^2}{\pi V}\sum_{\vec{k}}{\mathrm{tr}\left[v^{\mu}_\vec{k} \mathrm{Im} G(\vec{k}, \varepsilon + i\delta) v^{\mu}_\vec{k} \mathrm{Im} G(\vec{k},\varepsilon+ i\delta) \right]}}
 ```
-となる。これを$`T= 0\ \mathrm{K}`$で評価するとフェルミディラック分布の微分がデルタ関数になり、
+となる。これを$`T　= 0\ \mathrm{K}`$で評価するとフェルミディラック分布の微分がデルタ関数になり、
 ```math
 \sigma_{\mu \mu} = \frac{\hbar e^2}{\pi V}\sum_{\vec{k}}{\mathrm{tr}\left[v^{\mu}_\vec{k} \mathrm{Im} G(\vec{k}, \varepsilon + i\delta) v^{\mu}_\vec{k} \mathrm{Im} G(\vec{k},\varepsilon+ i\delta)\right]}
 ```
