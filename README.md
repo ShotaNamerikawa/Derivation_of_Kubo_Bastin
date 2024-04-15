@@ -1,7 +1,6 @@
 # Derivation_of_Kubo_Bastin
 # 目的
-Kubo-Bastin, Kubo-Streda, Kubo-Greenwood公式の導出を温度グリーン関数から簡潔に行う。Kubo-Bastin,StredaはKubo公式に基づく
-伝導度テンソルの反対称成分計算でよく使われる公式でありこれを理解することが線形応答理論に基づく異常ホール伝導度の理解において非常に重要である。
+Kubo-Bastin, Kubo-Streda, Kubo-Greenwood公式の導出を温度グリーン関数から簡潔に行う。Bastin,Streda公式は量子論に基づく伝導度テンソルの反対称成分計算でよく使われる公式でありこれを理解することが線形応答理論に基づく異常ホール伝導度の理解において非常に重要である。
 # 参考文献
 - [1] Sec 21.2 in A. A. Abrikosov, L. P. Gorkov, I. E. Dzyaloshinski, Methods of Quantum Field Theory in Statistical Physics
 - [2] 8章　in 小形　正男, 物性物理のための場の理論・グリーン関数
@@ -42,11 +41,15 @@ $`-\frac{1}{\beta} g(i \varepsilon_n)`$である。これより
 ```math
 \int_{-\infty}^{\infty}{d\varepsilon f_\mathrm{FD}(\varepsilon) \frac{e^2}{2\pi i V}\sum_{\vec{k}}{\mathrm{tr}\left[v^{\mu}_\vec{k} G(\vec{k}, \varepsilon + i\omega_\nu) v^{\nu}_\vec{k} (G(\vec{k},\varepsilon+ i\delta) - G(\vec{k},\varepsilon- i\delta )) + v^{\mu}_\vec{k} (G(\vec{k},\varepsilon+ i\delta) - G(\vec{k},\varepsilon- i\delta ))v^{\nu}_\vec{k}G(\vec{k}, \varepsilon - i\omega_\nu)\right]}}
 ```
-となる。静的伝導度を計算するときは$`i\omega_\nu`$を$`\hbar \omega + i\delta`$に解析接続した後に上の式の$`\omega`$の１次の項をとればよく
+となる。ただし、Imz=iwnuにおける実軸方向の積分は変数変換をし、Fermi Dirac関数に関して
+
+が成り立つことを利用し、実軸上の積分に直している。
+
+静的伝導度を計算するときは$`i\omega_\nu`$を$`\hbar \omega + i\delta`$に解析接続した後に上の式の$`\omega`$の１次の項をとればよく
 ```math
 \sigma_{\mu \nu} = \int_{-\infty}^{\infty}{d\varepsilon f_\mathrm{FD}(\varepsilon) \frac{\hbar e^2}{i \pi V}\sum_{\vec{k}}{\mathrm{tr}\left[v^{\mu}_\vec{k} \frac{\partial}{\partial \varepsilon}G(\vec{k}, \varepsilon + i\delta) v^{\nu}_\vec{k} \mathrm{Im} G(\vec{k},\varepsilon+ i\delta)  - v^{\mu}_\vec{k} \mathrm{Im} G(\vec{k},\varepsilon+ i\delta) v^{\nu}_\vec{k} \frac{\partial}{\partial \varepsilon} G(\vec{k}, \varepsilon - i\delta)\right]}}
 ```
-となる。これがKubo-Bastin公式である。(ただし、元の論文ではグリーン関数の自己エネルギーを無視した時の式$`- \frac{1}{\pi} \rm{Im}G(\varepsilon + i \delta) \rightarrow \delta(\varepsilon - H)`$を用いている。)
+となる。これがKubo-Bastin公式である。(ただし、元の論文ではグリーン関数の自己エネルギーを無視した時に成り立つ式$`- \frac{1}{\pi} \rm{Im}G(\varepsilon + i \delta) \rightarrow \delta(\varepsilon - H)`$を用いている。)
 
 Stredaはフェルミ面**周り**の積分項(Fermi surface term)とフェルミ面**以下のエネルギー**の積分項(Fermi Sea term)に分離する方法を提案した。すなわち、
 
