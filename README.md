@@ -41,7 +41,7 @@ $`-\frac{1}{\beta} g(i \varepsilon_n)`$である。これより
 ```math
 \int_{-\infty}^{\infty}{d\varepsilon f_\mathrm{FD}(\varepsilon) \frac{e^2}{2\pi i V}\sum_{\vec{k}}{\mathrm{tr}\left[v^{\mu}_\vec{k} G(\vec{k}, \varepsilon + i\omega_\nu) v^{\nu}_\vec{k} (G(\vec{k},\varepsilon+ i\delta) - G(\vec{k},\varepsilon- i\delta )) + v^{\mu}_\vec{k} (G(\vec{k},\varepsilon+ i\delta) - G(\vec{k},\varepsilon- i\delta ))v^{\nu}_\vec{k}G(\vec{k}, \varepsilon - i\omega_\nu)\right]}}
 ```
-となる。静的伝導度を計算するときは周波数を$`\hbar \omega + i\delta`$に解析接続した後に上の式の$`\omega`$の１次の項をとればよく
+となる。静的伝導度を計算するときは$`i\omega_\nu`$を$`\hbar \omega + i\delta`$に解析接続した後に上の式の$`\omega`$の１次の項をとればよく
 ```math
 \sigma_{\mu \nu} = \int_{-\infty}^{\infty}{d\varepsilon f_\mathrm{FD}(\varepsilon) \frac{\hbar e^2}{\pi V}\sum_{\vec{k}}{\mathrm{tr}\left[v^{\mu}_\vec{k} \frac{\partial}{\partial \varepsilon}G(\vec{k}, \varepsilon + i\delta) v^{\nu}_\vec{k} \mathrm{Im} G(\vec{k},\varepsilon+ i\delta)  - v^{\mu}_\vec{k} \mathrm{Im} G(\vec{k},\varepsilon+ i\delta) v^{\nu}_\vec{k} \frac{\partial}{\partial \varepsilon} G(\vec{k}, \varepsilon - i\delta)\right]}}
 ```
