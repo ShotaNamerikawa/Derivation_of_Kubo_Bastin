@@ -1,6 +1,6 @@
 # Derivation_of_Kubo_Bastin
 # 目的
-Kubo-Bastin公式の導出を温度グリーン関数から簡潔に行う。
+Kubo-Bastin, Kubo-Streda, Kubo-Greenwood公式の導出を温度グリーン関数から簡潔に行う。
 # 参考文献
 - [1] Sec 21.2 in A. A. Abrikosov, L. P. Gorkov, I. E. Dzyaloshinski, Methods of Quantum Field Theory in Statistical Physics
 - [2] 8章　in 小形　正男, 物性物理のための場の理論・グリーン関数
