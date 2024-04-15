@@ -48,7 +48,7 @@ $`-\frac{1}{\beta} g(i \omega_n)`$である。これより
 ## Kubo-Streda公式の導出
 
 ## Kubo-Greenwood公式の導出
-$`\mu = \nu`$つまり縦の電気伝導度の場合はトレースの巡回則を使い、フェルミディラック以外のすべての部分全体を微分した形に書ける。これを部分積分することで
+Bastin公式において$`\mu = \nu`$つまり縦の電気伝導度の場合はトレースの巡回則を使い、フェルミディラック以外のすべての部分全体を微分した形に書ける。これを部分積分することで
 ```math
 \sigma_{\mu \mu} = \int_{-\infty}^{\infty}{d\varepsilon \left(-\frac{df_\mathrm{FD}(\varepsilon)}{d\varepsilon}\right) \frac{\hbar e^2}{\pi V}\sum_{\vec{k}}{\mathrm{tr}\left[v^{\mu}_\vec{k} \mathrm{Im} G(\vec{k}, \varepsilon + i\delta) v^{\mu}_\vec{k} \mathrm{Im} G(\vec{k},\varepsilon+ i\delta) \right]}}
 ```
