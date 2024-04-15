@@ -48,7 +48,7 @@ $`-\frac{1}{\beta} g(i \varepsilon_n)`$である。これより
 ```
 となる。これがKubo-Bastin公式である。(ただし、元の論文ではグリーン関数の自己エネルギーを無視した時の式$`- \frac{1}{\pi} \rm{Im}G(\varepsilon + i \delta) \rightarrow \delta(\varepsilon - H)`$を用いている。)
 
-Stredaはフェルミ面**周り**の積分項とフェルミ面**以下のエネルギー**の項海分離する方法を提案した。すなわち、
+Stredaはフェルミ面**周り**の積分項(Fermi surface term)とフェルミ面**以下のエネルギー**の積分項(Fermi Sea term)に分離する方法を提案した。すなわち、
 
 ## Kubo-Streda公式の導出
 
@@ -59,6 +59,6 @@ Bastin公式において$`\mu = \nu`$つまり縦の電気伝導度の場合は�
 ```
 となる。これを$`T=0\ \mathrm{K}`$で評価するとフェルミディラック分布の微分がデルタ関数になり、
 ```math
-\sigma_{\mu \mu} = \frac{\hbar e^2}{\pi V}\sum_{\vec{k}}{\mathrm{tr}\left[v^{\mu}_\vec{k} \mathrm{Im} G(\vec{k}, \varepsilon + i\delta) v^{\mu}_\vec{k} \mathrm{Im} G(\vec{k},\varepsilon+ i\delta)\right]}
+\sigma_{\mu \mu} = \frac{\hbar e^2}{\pi V}\sum_{\vec{k}}{\mathrm{tr}\left[v^{\mu}_\vec{k} \mathrm{Im} G(\vec{k}, \varepsilon_F + i\delta) v^{\mu}_\vec{k} \mathrm{Im} G(\vec{k},\varepsilon_F+ i\delta)\right]}
 ```
-が導かれる。これがKubo-Greenwood公式である。
+が導かれる。ただし、$`\varepsilon_F`$はフェルミエネルギーである。これがKubo-Greenwood公式である。
