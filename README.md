@@ -17,13 +17,14 @@ Kubo-Bastin公式の導出を温度グリーン関数から簡潔に行う。
 ```
 と得られる。(ちなみに光学伝導度は$`\omega`$を有限にすることで得られる。)ここで多体効果(電子間相互作用、電子-格子相互作用)から生じるバーテックス補正を無視する近似(独立電子近似)を行うと電流相関関数は
 ```math
-\Phi_{j^{\mu}_e j^{\nu}_e}(\tau) = \frac{1}{V}\braket{T_\tau[j^{\mu}_e(\tau) j^{\nu}_e(0)]} = -\frac{e^2}{V} \sum_{\vec{k}}{\mathrm{tr}\vec{v}_\vec{k} G(\vec{k},\tau) \vec{v}_\vec{k} G(\vec{k},-\tau)} 
+\Phi_{j^{\mu}_e j^{\nu}_e}(\tau) = \frac{1}{V}\braket{T_\tau[j^{\mu}_e(\tau) j^{\nu}_e(0)]} = -\frac{e^2}{V} \sum_{\vec{k}}{\mathrm{tr}\vec{v}_\vec{k} \mathscr{G}(\vec{k},\tau) \vec{v}_\vec{k} \mathscr{G}(\vec{k},-\tau)} 
 ```
-となる。$`G(\tau),G(-\tau)`$の２つの符号が出るのは電流演算子が生成、消滅演算子のペアからなり、消滅演算子が$`\tau`$生成演算子が$`0`$のペアを端点として持つグリーン関数が$`G(\tau)`$, 消滅演算子が$`0`$生成演算子が$`\tau`$のペアを端点としてもつグリーン関数が$`G(-\tau)`$となるため。また、負符号はグリーン関数のループから生じる。虚時間の式を松原表示すると
+となる。$`\mathscr{G}(\tau),\mathscr{G}(-\tau)`$の２つの符号が出るのは電流演算子が生成、消滅演算子のペアからなり、消滅演算子が$`\tau`$生成演算子が$`0`$のペアを端点として持つグリーン関数が$`\mathscr{G}(\tau)`$, 消滅演算子が$`0`$生成演算子が$`\tau`$のペアを端点としてもつグリーン関数が$`\mathscr{G}(-\tau)`$となるため。また、負符号はグリーン関数のループから生じる。虚時間の式を松原振動数で表示すると
 ```math
-\Phi_{j^{\mu}_e j^{\nu}_e}(i\omega_\nu) = -\frac{e^2}{\beta V} \sum_{\vec{k},n}{\mathrm{tr}v^{\mu}_\vec{k} \mathscr{G}(\vec{k},i\omega_n ) v^{\nu}_\vec{k} G(\vec{k}, i\omega_n - i\omega_\nu)} 
+\Phi_{j^{\mu}_e j^{\nu}_e}(i\omega_\nu) = -\frac{e^2}{\beta V} \sum_{\vec{k},n}{\mathrm{tr}v^{\mu}_\vec{k} \mathscr{G}(\vec{k},i\omega_n ) v^{\nu}_\vec{k} \mathscr{G}(\vec{k}, i\omega_n - i\omega_\nu)} 
 ```
-となる。
+となる。ただし、$`\mathscr{G}(i\varepsilon_n) = (i\varepsilon_n - H(k) + \mu)^{-1}`$である。
+
 次に、松原和を留数定理を使い、フェルミディラック積分に置き換えることを考える。フェルミディラック分布関数を$`\mu=0`$とした式は
 ```math
 f(\varepsilon) = \frac{1}{e^{\beta(\varepsilon)} + 1}
