@@ -45,7 +45,7 @@ $`-\frac{1}{\beta} g(i \varepsilon_n)`$である。これより
 ```math
 \sigma_{\mu \nu} = \int_{-\infty}^{\infty}{d\varepsilon f_\mathrm{FD}(\varepsilon) \frac{\hbar e^2}{\pi V}\sum_{\vec{k}}{\mathrm{tr}\left[v^{\mu}_\vec{k} \frac{\partial}{\partial \varepsilon}G(\vec{k}, \varepsilon + i\delta) v^{\nu}_\vec{k} \mathrm{Im} G(\vec{k},\varepsilon+ i\delta)  - v^{\mu}_\vec{k} \mathrm{Im} G(\vec{k},\varepsilon+ i\delta) v^{\nu}_\vec{k} \frac{\partial}{\partial \varepsilon} G(\vec{k}, \varepsilon - i\delta)\right]}}
 ```
-となる。これがKubo-Bastin公式である。
+となる。これがKubo-Bastin公式である。(これを分離するとG^R G^R のような項が現れるフェルミの海のタームとG^R G^A のような項が現れるフェルミ面のタームが出る。
 ## Kubo-Streda公式の導出
 
 ## Kubo-Greenwood公式の導出
