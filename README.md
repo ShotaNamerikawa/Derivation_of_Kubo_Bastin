@@ -51,7 +51,7 @@ $`-\frac{1}{\beta} g(i \varepsilon_n)`$である。これより
 ```
 となる。これがKubo-Bastin公式である。(ただし、元の論文ではグリーン関数の自己エネルギーを無視した時に成り立つ式$`- \frac{1}{\pi} \rm{Im}G(\varepsilon + i \delta) \rightarrow \delta(\varepsilon - H)`$を用いている。)
 
-Stredaはフェルミ面**周り**の積分項(Fermi surface term)とフェルミ面**以下のエネルギー**の積分項(Fermi Sea term)に分離する方法を提案した。すなわち、
+Stredaはフェルミ面**上**の積分項(Fermi surface term)とフェルミ面**以下のエネルギー**の積分項(Fermi Sea term)に分離する方法を提案した。すなわち、
 
 である。
 
